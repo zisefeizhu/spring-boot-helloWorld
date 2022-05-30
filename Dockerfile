@@ -1,6 +1,6 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
 
-LABEL maintainer="MageEdu <mage@magedu.com>"
+LABEL maintainer="zisefeizhu"
 
 ADD target/spring-boot-helloworld-*-SNAPSHOT.jar /applications/spring-boot-helloworld.jar
 
