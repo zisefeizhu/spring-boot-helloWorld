@@ -5,3 +5,5 @@ LABEL maintainer="zisefeizhu"
 ADD target/spring-boot-helloworld-*-SNAPSHOT.jar /applications/spring-boot-helloworld.jar
 
 ENTRYPOINT ["/bin/sh","-c","/opt/java/openjdk/bin/java -jar /applications/spring-boot-helloworld.jar --server.port=80"]
+
+# 测试一下吧
